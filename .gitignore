@@ -1,0 +1,4 @@
+.git
+db.sqlite3
+coolsite_cache/*
+logs/debug.log

@@ -1,0 +1,943 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2021-12-23T15:18:29.939Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Актрисы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2021-12-23T15:18:41.795Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Певицы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2021-12-23T15:21:41.410Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2021-12-23T15:29:19.088Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Анджелина Джоли",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2021-12-23T15:34:01.800Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Дженифер Лоуренс",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2021-12-23T15:34:51.687Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Джулия Робертс",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2021-12-23T15:35:32.372Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Марго Робби",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2021-12-23T15:36:16.165Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Ума Турман",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2021-12-23T15:42:51.387Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Бейонсе",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2021-12-23T15:44:53.376Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Кэти Перри",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2021-12-23T15:45:45.132Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Рианна",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2021-12-23T15:46:38.044Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Шакира",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-01-02T18:15:08.738Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-01-02T18:15:09.161Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Шакира",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-01-02T18:15:57.679Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Рианна",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-01-02T18:15:57.890Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Кэти Перри",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-01-02T18:15:59.305Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Бейонсе",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-01-02T18:16:00.657Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Ума Турман",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-01-02T18:16:00.810Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Марго Робби",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-01-02T18:16:00.987Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Джулия Робертс",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-01-02T18:16:01.154Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Дженифер Лоуренс",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-01-02T18:16:01.362Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Анджелина Джоли",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-01-02T18:16:01.523Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-01-02T18:52:43.909Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Анджелина Джоли",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-01-02T18:52:44.043Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-01-02T19:04:39.250Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Анджелина Джоли",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-01-02T19:04:46.762Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Анджелина Джоли",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-01-02T19:50:12.828Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-01-02T19:50:12.962Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Шакира",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.167Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Рианна",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.304Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Кэти Перри",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.458Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Бейонсе",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.595Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Ума Турман",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.751Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Марго Робби",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-01-02T19:50:13.912Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Джулия Робертс",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-01-02T19:50:14.864Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Дженифер Лоуренс",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-01-02T19:50:46.137Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "2222",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-01-02T19:50:46.206Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "1111",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-01-02T19:50:46.274Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Ариана Гранде",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-01-05T19:08:00.351Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Станислав",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-01-05T19:11:16.641Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Станислав",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-01-07T12:24:57.126Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "Мария Шарапова",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2022-01-07T12:29:54.542Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "Мария Шарапова",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2022-01-07T12:29:54.543Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "Статья 1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2022-01-07T12:31:49.772Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "Мария Шарапова",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$yMsvsNq0ttyoNgImuRdyuN$eUZn2vJFMTq7wa67+x45PYOwizP2uFuLjLKnAA7+ESw=",
+      "last_login": "2022-01-07T12:23:38.418Z",
+      "is_superuser": true,
+      "username": "root",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-12-23T15:15:24.047Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$xz92W1IBJzmgofOY8qkA3k$4jegTynz7syc/hRusRMLoYRES6t4sqIrLQwr81qpidA=",
+      "last_login": "2022-01-07T12:17:49.917Z",
+      "is_superuser": false,
+      "username": "user1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-05T14:10:32.309Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$Dnp2PixkbtbtpiulQLfaNn$FfYgdaj584j0/j6DW2JGrOVWBMPsWxn28kxd0O0Cfeo=",
+      "last_login": "2022-01-05T15:45:19.630Z",
+      "is_superuser": false,
+      "username": "user2",
+      "first_name": "",
+      "last_name": "",
+      "email": "user2@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-05T14:16:06.352Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$HK0x5c0fdrP7D2gv36iwtS$3eDougC6q9e5H3o27MpHIM6FAKP/9vkEdfQihqaJrjs=",
+      "last_login": "2022-01-05T16:10:49.528Z",
+      "is_superuser": false,
+      "username": "user3",
+      "first_name": "",
+      "last_name": "",
+      "email": "user3@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-05T16:10:49.191Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$WpajV0JakXLGCbzDqTKF8O$CtkE29c91rwAL6b7B8z8ea1gZZpCeF3utjNmdt1ekgk=",
+      "last_login": "2022-01-05T16:25:33.738Z",
+      "is_superuser": false,
+      "username": "user4",
+      "first_name": "",
+      "last_name": "",
+      "email": "user4@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-05T16:25:33.011Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "mu79dahwn34lx6cvpb14vbscxfck39nz",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAQAP-lZ9OUbZd2PXrnG8j2sYIamlA4Gf_dkHDQ68xk3mrkfZvGvZV1nLO6qk5dflnk9CzLIfKDl3vVqS7bOkd9JPq0TQ81l9ftbP8GE7fp2IJlm3siZ1DQc7ECJJgDh4iGg-9JgiFgJMbsRTpJYC0mZwDAO_X5As5bNyI:1n5V63:nyYrPJA2Z_HWa_sCqqdG0tVqcQjRY7qU8YhEXl87Pds",
+      "expire_date": "2022-01-20T15:54:35.943Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "qijfyv0r23u3zbkgv1ub3qmtt99w5994",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAQAP-lZ9OUbZd2PXrnG8j2sYIamlA4Gf_dkHDQ68xk3mrkfZvGvZV1nLO6qk5dflnk9CzLIfKDl3vVqS7bOkd9JPq0TQ81l9ftbP8GE7fp2IJlm3siZ1DQc7ECJJgDh4iGg-9JgiFgJMbsRTpJYC0mZwDAO_X5As5bNyI:1n0Pp6:jSg-R6fUuQZdX75HLbN_lRQcvX7oMFwcNL2Wqs_cR9M",
+      "expire_date": "2022-01-06T15:16:04.008Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wd8e3qhcv1opkn9l36l01moccl1c8qk5",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAQAP-lZ9OUbZd2PXrnG8j2sYIamlA4Gf_dkHDQ68xk3mrkfZvGvZV1nLO6qk5dflnk9CzLIfKDl3vVqS7bOkd9JPq0TQ81l9ftbP8GE7fp2IJlm3siZ1DQc7ECJJgDh4iGg-9JgiFgJMbsRTpJYC0mZwDAO_X5As5bNyI:1n5oHS:D-q8m4Ttq9RNKh6_yQo0MLFb-SPzHqN5yK9uOtESkLw",
+      "expire_date": "2022-01-21T12:23:38.421Z"
+    }
+  },
+  {
+    "model": "captcha.captchastore",
+    "pk": 1,
+    "fields": {
+      "challenge": "BKQF",
+      "response": "bkqf",
+      "hashkey": "658933647395fc49a009408fa1a04ee6483d5d82",
+      "expiration": "2022-01-06T15:30:26.354Z"
+    }
+  },
+  {
+    "model": "captcha.captchastore",
+    "pk": 2,
+    "fields": {
+      "challenge": "JTYG",
+      "response": "jtyg",
+      "hashkey": "4a463ddf5b9b50be99d8d993a44ddcde84bb31c5",
+      "expiration": "2022-01-06T15:59:19.882Z"
+    }
+  },
+  {
+    "model": "captcha.captchastore",
+    "pk": 3,
+    "fields": {
+      "challenge": "YKBG",
+      "response": "ykbg",
+      "hashkey": "7400bc616d4e262bd61276f07ef3375f9c1f41dd",
+      "expiration": "2022-01-08T18:36:12.410Z"
+    }
+  },
+  {
+    "model": "captcha.captchastore",
+    "pk": 4,
+    "fields": {
+      "challenge": "ARYB",
+      "response": "aryb",
+      "hashkey": "82fdee4551703161da7836469c6ad51da68719e6",
+      "expiration": "2022-01-08T18:52:24.409Z"
+    }
+  },
+  {
+    "model": "captcha.captchastore",
+    "pk": 5,
+    "fields": {
+      "challenge": "UTFY",
+      "response": "utfy",
+      "hashkey": "cc718884c61ead00bcfd3203534dda662c94842e",
+      "expiration": "2022-01-08T18:52:32.202Z"
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 1,
+    "fields": {
+      "title": "Ариана Гранде",
+      "slug": "ariana-grande",
+      "content": "Ариа́на Гра́нде-Буте́ра[3] (англ. Ariana Grande-Butera; род. 26 июня 1993, Бока-Ратон, Флорида, США[1][4]) — американская певица, актриса, автор песен, музыкальный продюсер[5][6], обладательница премии «Грэмми»[7].\r\n\r\nПрофессиональную карьеру в шоу-бизнесе Ариана Гранде начала в 2008 году в бродвейском мюзикле «13». В 2009 году она получила роль Кэт Валентайн в телевизионном сериале «Виктория-победительница» на канале Nickelodeon, потом продолжила играть её же в телесериале «Сэм и Кэт», выходившем в 2013—2014 годах. Ариана также принимала участие в записи саундтреков и озвучивании мультфильмов (в частности, мультсериала «Клуб Винкс»). В 2015 году она вернулась на телеэкраны с эпизодической ролью Сони Херфман в сериале «Королевы крика».\r\n\r\nМузыкальная карьера Арианы началась в 2011 году с записи саундтрека к сериалу «Виктория-победительница». В том же году она заключила контракт со звукозаписывающей компанией Republic Records. В 2013 году у неё вышел дебютный альбом Yours Truly, дебютировавший на первом месте в американском чарте Billboard 200. Песня «The Way» с этого альбома занимала уверенные позиции в первой десятке чарта Billboard Hot 100 и была положительно встречена музыкальными критиками.\r\n\r\nСледующий альбом Арианы Гранде, My Everything (2014), также дебютировал на первой позиции в американском чарте. Альбом имел мировой успех благодаря хитам «Problem», «Break Free», «Bang Bang» и «Love Me Harder». C несколькими песнями с него певица 34 недели непрерывно находилась в первой десятке американского чарта Billboard Hot 100. В 2015 году она отправилась в мировой тур в поддержку этого альбома, озаглавленный The Honeymoon Tour.\r\n\r\nВ 2016 году Ариана выпустила альбом Dangerous Woman (2016, 2-е место в США), клип на сингл «Side To Side» с данного альбома имеет более миллиарда просмотров на YouTube. В следующем году певица отправилась в мировое турне Dangerous Woman Tour. 22 мая 2017 года на концерте Арианы в Манчестере произошёл теракт. Гранде приостановила тур и устроила благотворительный концерт, чтобы собрать деньги для пострадавших в теракте.\r\n\r\nСледующий альбом — Sweetener — вышел в 2018 году и занял 1-е место в США. Альбом был признан Американской академией звукозаписи лучшим поп-альбомом 2018 года. Через несколько месяцев после релиза альбома Sweetener, Ариана Гранде выпустила альбом Thank U, Next (2019), который так же занял первую строчку американского чарта Billboard 200. Альбом повторил рекорд группы The Beatles: три сингла из Thank U, Next («7 Rings», «Break Up With Your Girlfriend, I’m Bored» и «Thank U, Next») заняли первые три позиции чарта Billboard Hot 100 одновременно. Песни Арианы Гранде часто бьют рекорды на стриминг-сервисе Spotify. 18 марта 2019 певица отправилась в мировое турне Sweetener World Tour в поддержку альбомов Sweetener и Thank U Next.",
+      "photo": "photos/2021/12/23/ariana-grande.jpg",
+      "time_create": "2021-12-23T15:21:41.410Z",
+      "time_update": "2022-01-02T18:52:43.974Z",
+      "is_published": true,
+      "cat": 2
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 2,
+    "fields": {
+      "title": "Анджелина Джоли",
+      "slug": "andzhelina-dzholi",
+      "content": "Анджели́на Джоли́[5] (англ. Angelina Jolie[6], при рождении Войт (англ. Voight), ранее Джоли Питт (англ. Jolie Pitt); род. 4 июня 1975, Лос-Анджелес, Калифорния, США) — американская актриса кино, телевидения и озвучивания, кинорежиссёр, сценаристка, продюсер, фотомодель, посол доброй воли ООН.\r\n\r\nОбладательница премии «Оскар», трёх премий «Золотой глобус» (первая актриса в истории, три года подряд выигравшая премию) и двух «Премий Гильдии киноактёров США».\r\n\r\nДебютировала в кино в 1982 году, сыграв роль в комедийном фильме «В поисках выхода» (где снимались также её отец и мать)[7], однако известность получила после того, как сыграла героиню видеоигр Лару Крофт в фильмах «Лара Крофт: Расхитительница гробниц» и «Лара Крофт: Расхитительница гробниц 2 — Колыбель жизни».\r\n\r\nВ 2009, 2011 и 2013 годах по версии журнала Forbes Джоли была названа самой высокооплачиваемой актрисой Голливуда[8][9].\r\n\r\nЕё наиболее успешными с коммерческой стороны фильмами стали «Малефисента» (сборы в мировом прокате — 758 миллионов долларов США), «Мистер и миссис Смит» (сборы в мировом прокате — 478 миллионов долларов США), «Особо опасен» (341 миллион долларов США), «Солт» (293 миллиона долларов США), а также «Турист» (278 миллионов долларов США), «Лара Крофт: Расхитительница гробниц» (274 миллиона долларов США) и картина с участием Николаса Кейджа «Угнать за 60 секунд» (237 миллионов долларов США)[10].",
+      "photo": "photos/2021/12/23/angelina-jolie.jpg",
+      "time_create": "2021-12-23T15:29:19.087Z",
+      "time_update": "2022-01-02T19:04:46.572Z",
+      "is_published": true,
+      "cat": 1
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 3,
+    "fields": {
+      "title": "Дженифер Лоуренс",
+      "slug": "dzhenifer-lourens",
+      "content": "Дже́ннифер Шре́йдер Ло́уренс (англ. Jennifer Shrader Lawrence [ˈdʒɛnɪfɚ ˈʃɹeɪdɚ ˈlɒ.ɹəns]; род. 15 августа 1990, Индиан-Хиллз, Кентукки, США) — американская актриса кино и телевидения. Лауреат премии «Оскар» (2013), трёх премий «Золотой глобус» (2013, 2014, 2016), премии BAFTA (2014), двух «Премий Гильдии киноактёров США» (2013, 2014) и премии «Сатурн» (2013).\r\n\r\nДженнифер Лоуренс начала актёрскую карьеру в 2006 году, сыграв в телепроекте «Городская компания». Свою первую главную роль она исполнила в драме «Дом покера  (англ.)рус.». Признание в актёрской среде она получила после роли Тиффани в комедийной драме «Мой парень — псих», а массовому зрителю стала известна как молодая Мистик в фантастических фильмах «Люди Икс: Первый класс» (2011), «Люди Икс: Дни минувшего будущего» (2014) и «Люди Икс: Апокалипсис» (2016). Наибольшую популярность актрисе принесла роль Китнисс Эвердин в экранизации книжной трилогии «Голодные игры».\r\n\r\nВ 2011 году Лоуренс в двадцатилетнем возрасте была номинирована на премию «Оскар» и «Золотой глобус» в категориях «Лучшая женская роль» и «Лучшая женская роль в драматическом фильме» за исполнение роли Ри Долли в драме «Зимняя кость», но обе статуэтки тогда выиграла Натали Портман. В периоде между 2012 и 2013 годами получила множество наград за роль в комедийной драме «Мой парень — псих», в их числе «Оскар», «Золотой глобус» и Премия Гильдии киноактёров США в номинациях «Лучшая женская роль». Актёрская работа Лоуренс в криминальной трагикомедии «Афера по-американски» принесла ей первую статуэтку BAFTA (2014), второй «Золотой глобус» (2014) и номинации на «Оскар» и «Премию Гильдии киноактёров США». Самая высокооплачиваемая актриса 2014—2015 года по версии журнала Forbes.",
+      "photo": "photos/2021/12/23/jennifer-lawrence.jpg",
+      "time_create": "2021-12-23T15:34:01.799Z",
+      "time_update": "2022-01-02T19:50:14.010Z",
+      "is_published": true,
+      "cat": 1
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 4,
+    "fields": {
+      "title": "Джулия Робертс",
+      "slug": "dzhuliya-roberts",
+      "content": "Джу́лия Фио́на Ро́бертс (англ. Julia Fiona Roberts; род. 28 октября 1967, Атланта, Джорджия, США) — американская актриса кино и телевидения, продюсер. Первым успехом Джулии Робертс в кино стала роль в фильме «Стальные магнолии» (1989), за которую она получила премию «Золотой глобус» и номинацию на премию «Оскар» за «Лучшую женскую роль второго плана» в 1990 году. Через год она приобрела статус «звезды Голливуда» после исполнения главной роли в мелодраме «Красотка» (1990), принёсшей ей вторую премию «Золотой глобус», вторую номинацию на премию «Оскар» и номинацию на премию BAFTA в категории «Лучшая женская роль» в 1991 году.\r\n\r\nВ 2001 году, сыграв главную роль в биографическом фильме «Эрин Брокович» (2000), Робертс стала обладательницей множества наград, в том числе премии «Оскар», третьей премии «Золотой глобус», премии BAFTA и «Премии Гильдии киноактёров США» в номинации «Лучшая женская роль». В 2014 году Джулия Робертс была номинирована на премии «Оскар», «Золотой глобус» и BAFTA, а также на «Премию Гильдии киноактёров США» за «Лучшую женскую роль второго плана» в фильме «Август: Графство Осейдж» (2013).\r\n\r\nДжулия Робертс — одна из самых высокооплачиваемых актрис в мире[4]. Фильмы с её участием принесли в мировом прокате прибыль на сумму свыше двух миллиардов долларов[5].",
+      "photo": "photos/2021/12/23/julia-roberts.jpg",
+      "time_create": "2021-12-23T15:34:51.685Z",
+      "time_update": "2022-01-02T19:50:13.831Z",
+      "is_published": true,
+      "cat": 1
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 5,
+    "fields": {
+      "title": "Марго Робби",
+      "slug": "margo-robbi",
+      "content": "Ма́рго Эли́с Ро́бби (англ. Margot Elise Robbie; род. 2 июля 1990, Дэлби, Квинсленд, Австралия) — австралийская актриса и кинопродюсер. Двукратная номинантка на премию «Оскар» (2018, 2020).\r\n\r\nНачала карьеру в 2007 году в Австралии. Известность на родине ей принесла роль Донны Фридмен в телесериале «Соседи» (2008—2011). Переехав в США в 2011 году, она сыграла Лору Кэмерон в телесериале «Пан Американ», после чего последовало множество предложений крупных ролей в художественных фильмах. Наиболее примечательные из них — Шарлотта в «Бойфренд из будущего» (2013), Наоми Лапалья в «Волк с Уолл-стрит» (2013), за которую Робби получила премию «Империя», Джейн Портер в «Тарзан. Легенда» (2016), Харли Квинн в «Отряде самоубийц» (2016), за которую она получила премию «Critics’ Choice Movie Awards».\r\n\r\nРоль Тони Хардинг в фильме «Тоня против всех» (2017) принесла Марго премии «AACTA Awards», «Critics’ Choice Movie Awards», номинации на премии «Оскар», «Золотой глобус», BAFTA и ряд других. Роль Кайлы Посписил в фильме «Скандал» (2019) принесла Марго премию «AACTA Awards», номинации на премии «Оскар», «Золотой глобус», BAFTA, Гильдии киноактёров США, «Critics’ Choice Movie Awards» и ряд других.",
+      "photo": "photos/2021/12/23/margot-robbie.jpg",
+      "time_create": "2021-12-23T15:35:32.371Z",
+      "time_update": "2022-01-02T19:50:13.670Z",
+      "is_published": true,
+      "cat": 1
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 6,
+    "fields": {
+      "title": "Ума Турман",
+      "slug": "uma-turman",
+      "content": "У́ма Кару́на Ту́рман (англ. Uma Karuna Thurman; род. 29 апреля 1970, Бостон, США) — американская актриса, бывшая модель.\r\n\r\nСыграла главные роли в различных кинолентах, от романтических комедий и драм до научно-фантастических фильмов и боевиков. После ранних ролей в таких фильмах, как «Опасные связи», она добилась международной известности в 1994 году, сыграв роль в «Криминальном чтиве» Квентина Тарантино, за которую была номинирована на премии «Оскар», «Золотой глобус» и BAFTA.",
+      "photo": "photos/2021/12/23/uma-thurman.jpg",
+      "time_create": "2021-12-23T15:36:16.164Z",
+      "time_update": "2022-01-02T19:50:13.526Z",
+      "is_published": true,
+      "cat": 1
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 7,
+    "fields": {
+      "title": "Бейонсе",
+      "slug": "bejonse",
+      "content": "Бейо́нсе Жизе́ль Но́улз-Картер (англ. Beyoncé Giselle Knowles-Carter; род. 4 сентября 1981[5], Хьюстон), более известная просто как Бейо́нсе (произносится /biˈjɒnseɪ/ би-йон-сей) — американская певица в стиле R’n’B, актриса, танцовщица, музыкальный продюсер. Будучи ребёнком, участвовала в разных вокальных и танцевальных конкурсах, принимала участие в школьной художественной самодеятельности. Ноулз прославилась в конце 1990-х годов, будучи солисткой женской R&B-группы Destiny’s Child.\r\n\r\nВо время раскола Destiny’s Child Ноулз выпустила свой дебютный сольный альбом Dangerously in Love (2003), в который вошли такие хиты, как «Crazy in Love» и «Baby Boy». Пластинка стала одним из самых успешных релизов 2003 года. За этот альбом Ноулз получила рекордные пять «Грэмми»[6][7]. В 2006 году, спустя год после окончательного развала группы, Бейонсе выпустила альбом B’Day, который занял первую строчку в чарте Billboard 200 и включал хиты «Déjà Vu», «Irreplaceable» и «Beautiful Liar». Её третий сольный альбом I Am… Sasha Fierce, выпущенный в ноябре 2008 года, включал хит «Single Ladies (Put a Ring on It)». Альбом и его синглы одержали победу в шести номинациях «Грэмми», что стало рекордом для певицы[8][9][10]. Бейонсе — одна из самых успешных артисток «Грэмми», получившая 28 наград, 17 из которых получены ею как сольной исполнительницей и три — как участницей группы Destiny’s Child.\r\n\r\nНоулз начала актёрскую карьеру в 2001 году, появившись в музыкальном фильме «Кармен: Хип-хопера». В 2006 году она снялась в главной роли в фильме-адаптации бродвейского мюзикла 1981 года «Девушки мечты», за который она была номинирована на «Золотой глобус». В 2004 году Ноулз запустила семейную линию одежды House of Deréon и подписала контракт с такими брендами, как Pepsi, Tommy Hilfiger, Armani и L’Oréal. В 2010 году журнал Forbes поместил Ноулз на вторую строку в списке 100 самых влиятельных знаменитостей в мире[11][12]; она также была включена в список самых влиятельных музыкантов в мире[13]. Журнал Time включил Ноулз в список 100 самых влиятельных людей мира[14].\r\n\r\nНоулз заняла пятое место в Hot 100 синглов номер один как сольная исполнительница и четвёртое место с Destiny’s Child, как сольная артистка она распродала более 35 миллионов альбомов и синглов в США[15]. Согласно данным звукозаписывающей компании Sony, её общие продажи записей в составе группы превзошли 100 миллионов[16]. 11 декабря 2009 года Billboard объявил Ноулз самой успешной исполнительницей 2000-х годов и главной радио-исполнительницей десятилетия[17]. В феврале 2010 RIAA зарегистрировал её как артистку с самым большим количеством сертификатов RIAA за десятилетие[18][19]. В 2019 году вошла в список самых высокооплачиваемых музыкантов по версии журнала Forbes. Заработанная сумма составила $81 млн, это шестое место в рейтинге[20], которое певица разделила с Jay-Z.",
+      "photo": "photos/2021/12/23/beyonce.png",
+      "time_create": "2021-12-23T15:42:51.386Z",
+      "time_update": "2022-01-02T19:50:13.390Z",
+      "is_published": true,
+      "cat": 2
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 8,
+    "fields": {
+      "title": "Кэти Перри",
+      "slug": "keti-perri",
+      "content": "Кэ́трин Эли́забет Ха́дсон (англ. Katheryn Elizabeth Hudson), более известная как Кэ́ти Пе́рри (англ. Katy Perry; род. 25 октября 1984[1][2][3], Санта-Барбара, Калифорния) — американская певица, композитор, автор песен, актриса, посол доброй воли ООН[7].\r\n\r\nВ апреле 2007 года Перри подписала контракт со звукозаписывающей компанией Capitol Records. Она стала широко известна во всем мире после выхода сингла «I Kissed a Girl» и альбома One of the Boys в 2008 году. Последующие синглы «Hot n Cold» и «Waking Up in Vegas» также пользовались широкой международной популярностью. Третий альбом Перри Teenage Dream вышел в сентябре 2010 года. С него было выпущено 6 синглов, 5 из которых достигли вершины США: «California Gurls», «Teenage Dream», «Firework», «E.T.», «Last Friday Night (T.G.I.F.)». Альбом Teenage Dream является первым альбомом среди исполнительниц, где пять синглов дошли до первой строчки чарта Billboard Hot 100 и вторым альбомом после Bad Майкла Джексона. В марте 2012 года Перри переиздала Teenage Dream под названием Teenage Dream: The Complete Confection. Первый сингл «Part of Me» дебютировал на первой строчке Billboard Hot 100. Он также возглавлял чарты Великобритании, Канады и Новой Зеландии. Её четвёртый альбом Prism вышел в октябре 2013 года. Он возглавил национальный альбомный чарт Billboard 200 в первую неделю продаж, а первый сингл «Roar» был мировым хитом, возглавив 17 чартов.\r\n\r\nПерри является обладательницей многочисленных наград, в том числе она была тринадцать раз номинирована на премию «Грэмми». В 2012 году музыкальное издание Billboard назвало её женщиной года. Она продолжает оставаться единственным артистом, кому удавалось провести 69 последовательных недель в лучшей десятке чарта Billboard Hot 100[8][9]. Перри также названа третьим лучшим артистом цифровой эпохи, согласно статистике RIAA[10]. Она также выпустила собственную парфюмерную линию: Purr, Meow, Killer Queen. В конце июля 2011 года Перри присоединилась к проекту «Смурфики», озвучив главную героиню — Смурфетту. Billboard поставил Перри на 14 место в обзоре самых высокооплачиваемых музыкантов 2011 года. В начале июля 2012 года она выпустила автобиографический документальный фильм «Кэти Перри: Частичка меня», в котором повествуется о последнем концертном туре The California Dreams Tour. На ноябрь 2013 года Перри продала 12 миллионов альбомов и 81 миллион синглов во всем мире[11][12]. По состоянию на Май 2021 года на официальный YouTube-канал Katy Perry подписано более 40 миллионов подписчиков.",
+      "photo": "photos/2021/12/23/katy-perry.jpg",
+      "time_create": "2021-12-23T15:44:53.375Z",
+      "time_update": "2022-01-02T19:50:13.235Z",
+      "is_published": true,
+      "cat": 2
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 9,
+    "fields": {
+      "title": "Рианна",
+      "slug": "rianna",
+      "content": "Риа́нна (англ. Rihanna); полное имя — Ро́бин Риа́нна Фе́нти (англ. Robyn Rihanna Fenty; род. 20 февраля 1988, Барбадос) — барбадосская певица, актриса, музыкальный продюсер, модный дизайнер и филантроп. В 16 лет переехала в США, чтобы начать карьеру певицы. Позже она подписала контракт с Def Jam Recordings.\r\n\r\nВ 2005 году Рианна выпустила свою дебютную работу Music of the Sun, которая вошла в десятку лучших альбомов Billboard 200, а сингл «Pon de Replay» стал успешным в чарте Billboard Hot 100. Менее чем через год певица выпустила второй студийный альбом A Girl like Me (2006), который достиг своего максимума в лучшей пятёрке альбомного чарта Billboard, так же композиция «SOS» стала первым синглом Рианны, лидировавшим в чарте Hot 100. Третий студийный альбом Good Girl Gone Bad (2007) включал в себя четыре хит-сингла «Umbrella», «Take a Bow», «Disturbia», «Don’t Stop the Music» и получил девять номинаций «Грэмми», выиграв в категории «Лучшее совместное исполнение (вокал/рэп)» за песню «Umbrella» при участии рэпера Jay-Z. Её четвёртый студийный альбом Rated R был выпущен в ноябре 2009 года; несколько песен с альбома вошли в лучшую десятку синглов, а именно «Russian Roulette», «Hard» и «Rude Boy», который занял первую строчку чарта Billboard Hot 100. Пятый студийный альбом Loud (2010) включал в себя три сингла первой величины: «Only Girl (In the World)», «What’s My Name?» и «S&M». Шестой по счёту студийный альбом Talk That Talk был выпущен 18 ноября 2011 года и включал в себя хит-сингл «We Found Love», который стал 11-м #1 Рианны в Hot 100 и оставался на вершине 10 недель. Седьмой альбом Unapologetic был выпущен 19 ноября 2012 года, его выходу предшествовал лид-сингл «Diamonds».[5][6]\r\n\r\nРианна является одной из самых продаваемых артистов всех времён вследствие продажи более 20 миллионов копий альбомов и 60 миллионов синглов.[7] Она самая молодая певица в истории Billboard, которой удалось четырнадцать раз возглавить чарт Billboard Hot 100[8]. По состоянию на март 2010 года Рианна продала 7,3 миллиона альбомов и более 33,7 миллиона синглов только на территории Соединённых Штатов Америки.[9][10] По состоянию на июль 2015 года продано более 100 миллионов копий синглов певицы, таким образом, Рианна стала первым артистом в истории, достигшим такого показателя[11]. Журнал Billboard назвал Рианну «Артистом цифровой эры 2000-х годов»[12] и присудил общее 17 место среди артистов 2000-х.[13] Певица получила множество наград, включая международную музыкальную премию World Music Awards 2007 года в номинациях Самая продаваемая певица в жанре поп-музыка и Артистка года, а также на церемонии BRIT Awards в категории Лучшая международная исполнительница.[14] Рианна является обладательницей восьми Грэмми, шести American Music Awards и специальной награды Icon Award, восемнадцати наград Billboard Music Awards. 20 сентября 2018 года стала чрезвычайным и полномочным послом Барбадоса в США[15][16]. По итогам 2018 года Рианна заняла седьмую позицию в рейтинге самых высокооплачиваемых певиц мира-2018, составленном журналом Forbes. Её доход за 2018 год составил 37,5 миллионов долларов[17]. 30 ноября 2021 года Барбадос вышел из-под власти британской короны, став парламентской республикой. На торжественной церемонии по этому поводу Рианна была объявлена национальным героем Барбадоса[18].",
+      "photo": "photos/2021/12/23/rihanna.png",
+      "time_create": "2021-12-23T15:45:45.130Z",
+      "time_update": "2022-01-02T19:50:13.098Z",
+      "is_published": true,
+      "cat": 2
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 10,
+    "fields": {
+      "title": "Шакира",
+      "slug": "shakira",
+      "content": "Шаки́ра Изабе́ль Меба́рак Рипо́ль (исп. Shakira Isabel Mebarak Ripoll; род. 2 февраля 1977, Барранкилья)[3], известная мононимно как Шакира (Shakira), — колумбийская певица, автор песен, танцовщица, музыкальный продюсер, хореограф и модель. Широко известна как наиболее успешная латиноамериканская артистка, добившаяся успеха к началу 2000-х на испаноязычном и на англоязычном музыкальных рынках. Имя певицы в переводе с арабского (араб. شاكِرة‎ šākira) означает «благодарная», а на хинди — «богиня света»[4]. Родилась и выросла в Барранкилье. Начала выступать в школе, проявляя интерес к музыке латиноамериканского, арабского направлений и рок-н-роллу. Имела способности к танцу живота.\r\n\r\nШакира выпустила первые студийные альбомы Magia и Peligro в начале 1990-х, но не добилась коммерческого успеха; однако её известность возросла в Латинской Америке с дебютным альбомом на главном лейбле Pies Descalzos (1996) и с четвёртым альбомом Dónde Están los Ladrones? (1998).\r\n\r\nШакира вошла на англоязычный рынок с пятым альбомом Laundry Service (2001). Его главный сингл «Whenever, Wherever» стал самым продаваемым в 2002 году. Её успех был подтверждён шестым и седьмым альбомами Fijación Oral, Vol. 1 и Oral Fixation, Vol. 2 (2005), с последнего вышла самая продаваемая песня XXI века «Hips Don’t Lie». Восьмой и девятый альбомы She Wolf (2009) и Sale el Sol (2010) получили одобрение у критиков, но не были раскручены из-за напряжённых отношений с лейблом Epic Records. Её официальная песня для Чемпионата мира по футболу 2010 «Waka Waka (This Time for Africa)» стала самой продаваемой песней Мирового Кубка за все времена. С более чем 2 миллиардами просмотров клип на неё является одним из самых просматриваемых видео на YouTube, а наиболее просматриваемый клип на песню «Chantaje» имеет более 2,2 миллиарда просмотров. По состоянию на август 2020 года на YouTube канал Shakira[5] подписано 30,1 миллиона пользователей. С 2013 года Шакира была судьёй на американской версии «Голоса» в четвёртом и шестом сезонах. Выходу её десятого альбома Shakira (2014) предшествовал главный сингл «Can’t Remember to Forget You».\r\n\r\nШакира выиграла много наград, включая пять «MTV Video Music Awards», две Грэмми, восемь «Латинских Грэмми», семь Billboard Music Awards, двадцать восемь Billboard Latin Music Awards[en] и номинацию на «Золотой глобус». У неё есть звезда на «Аллее славы», и она одна из самых продаваемых артистов всех времён с продажами более 70 миллионов альбомов (по другим данным — более 60 миллионов записей[6]) по всему миру[7]. Помимо работы в музыкальной индустрии Шакира задействована в филантропии через благотворительную деятельность и бенефисы, в особенности благодаря её фонду Pies Descalzos Foundation[en], выступлению на «Климатической инициативе Клинтона»[en] (CCI), проекте бывшего американского президента Билла Клинтона, и приглашению в Овальный Кабинет Президента Барака Обамы в феврале 2010 года, чтобы обсудить развитие детей раннего возраста[8]. В 2013[9] и 2014 годах[10] Шакира была в списках «Форбс» 100 самых влиятельных женщин в мире.",
+      "photo": "photos/2021/12/23/shakira.jpg",
+      "time_create": "2021-12-23T15:46:38.043Z",
+      "time_update": "2022-01-02T19:50:12.893Z",
+      "is_published": true,
+      "cat": 2
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 18,
+    "fields": {
+      "title": "Мария Шарапова",
+      "slug": "maria-sharapova",
+      "content": "Мари́я Ю́рьевна Шара́пова (род. 19 апреля 1987[1][2][3][…], Нягань, Тюменская область[1][6][7][…]) — российская теннисистка.\r\n\r\nЭкс-первая ракетка мира, победительница пяти турниров Большого шлема в одиночном разряде в 2004—2014 годах, одна из десяти женщин в истории, кто обладает так называемым «карьерным шлемом» (выиграла все турниры Большого шлема, но в разные годы), одна из лидеров по рекламным заработкам среди спортсменов мира[10]. В 2005 году Шарапова удостоена звания Заслуженный мастер спорта России, в 2012 году — награждена двумя медалями За заслуги перед Отечеством за высокие достижения в области физической культуры и спорта.\r\n\r\nДостижения:\r\n\r\nПобедительница 39 турниров WTA (36 — в одиночном разряде).\r\nПобедительница Итогового чемпионата WTA (2004) в одиночном разряде.\r\nОбладательница Кубка Федерации (2008) и финалистка (2015).\r\nСеребряный призёр Олимпийских игр 2012 года в одиночном разряде[11].\r\nФиналистка двух юниорских турниров Большого шлема (Открытый чемпионат Австралии, Уимблдон-2002) в одиночном разряде.\r\n26 февраля 2020 года объявила о завершении спортивной карьеры[12].",
+      "photo": "photos/2022/01/07/Maria_Sharapova.jpg",
+      "time_create": "2022-01-07T12:32:06.145Z",
+      "time_update": "2022-01-07T12:32:06.145Z",
+      "is_published": true,
+      "cat": 3
+    }
+  },
+  {
+    "model": "women.women",
+    "pk": 23,
+    "fields": {
+      "title": "Уинифер Фернандес",
+      "slug": "uinifer-fernandes",
+      "content": "Уинифер Фернандес (исп. Winifer Fernández, р. 6 января 1995, Сантьяго-де-лос-Трейнта-Кабальерос, Доминиканская Республика) — доминиканская волейболистка, либеро.\r\n\r\nОбладательница (2016) и серебряный призёр (2015) Панамериканского кубка. Серебряный призёр чемпионата Северной, Центральной Америки и Карибского бассейна (2015). Победительница Боливарианских игр (2017).",
+      "photo": "photos/2022/01/08/winifer-fernandez.jpg",
+      "time_create": "2022-01-08T18:23:07.353Z",
+      "time_update": "2022-01-08T18:23:07.353Z",
+      "is_published": true,
+      "cat": 3
+    }
+  },
+  {
+    "model": "women.category",
+    "pk": 1,
+    "fields": {
+      "name": "Актрисы",
+      "slug": "aktrisy"
+    }
+  },
+  {
+    "model": "women.category",
+    "pk": 2,
+    "fields": {
+      "name": "Певицы",
+      "slug": "pevicy"
+    }
+  },
+  {
+    "model": "women.category",
+    "pk": 3,
+    "fields": {
+      "name": "Спортсменки",
+      "slug": "sportsmenky"
+    }
+  }
+]
